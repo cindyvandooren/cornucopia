@@ -16,15 +16,13 @@ Setup:
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-For development purposes we use JSON server as the backend for our project. In order to get the json-server up and
-running complete the following steps:
+For development purposes we use JSON server as the backend for our project. In order to get the json-server up and running complete the following steps:
 1. Install json-server
   `npm install -g json-server`
 2. Run the json-server in this project's directory in a terminal and launch the JSON file
   `json-server --watch mock-data.json`
   The browser will reload automatically when the JSON file with mock data changes.
-3. Open your browser at the indicated URL. You can test the different paths using this URL followed by the path names
-  specified in the mock-data.json file, e.g. http://localhost:{{port}}/products.
+3. Open your browser at the indicated URL. You can test the different paths using this URL followed by the path names specified in the mock-data.json file, e.g. http://localhost:{{port}}/products.
 4. Use the json-server URL in the API services in the Angular app.
 
 ## Build
