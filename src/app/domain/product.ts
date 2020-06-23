@@ -10,6 +10,7 @@ export interface Product {
     numberOfPlayers: MinMax
   }
   images: string[];
+  rating: number;
 }
 
 export interface Price {

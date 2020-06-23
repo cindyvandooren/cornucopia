@@ -1,56 +1,61 @@
 {
-  "products": [{
-    "id": 1,
-    "brand": "999 Games",
-    "name": "Regenwormen",
-    "price": {
-      "currency": "EUR",
-      "amount": 14.95
-    },
-    "description": {
-      "short": "Snel en compact dobbelspel",
-      "extended": "Dit snelle compacte dobbelspelletje Regenwormen kun je op elk moment en overal spelen. Het duurt niet langer dan een half uurtje en het formaat zorgt ervoor dat je het thuis, in de trein of op de campingtafel kunt neerleggen. Iedereen die tot 36 kan tellen, kan meedoen! Als je aan de beurt bent, gooi je met 8 dobbelstenen. Je legt nu alle dobbelstenen met hetzelfde getal of met een worm opzij. Daarna gooi je met de resterende dobbelstenen en legt nu alle dobbelstenen met een ander getal opzij. Als je totaal hoger is dan 20 en je hebt ten minste één worm gegooid, mag je de steen met het betreffende getal van tafel of zelfs van een andere speler pakken! Maar neem je teveel risico en gooi je alleen maar getallen die je al eens hebt gepakt, dan ben je af en moet je juist een steen inleveren. Op elke steen staan een aantal regenwormen. Wie aan het einde van het spel de meeste regenwormen heeft, is de winnaar. Probeer Regenwormen nu zelf uit met onze online probeervariant."
-    },
-    "type": "Game",
-    "audience": {
-      "age": {
-        "min": 8
+  "products": [
+    {
+      "id": 1,
+      "brand": "999 Games",
+      "name": "Regenwormen",
+      "price": {
+        "currency": "EUR",
+        "amount": 14.95
       },
-      "numberOfPlayers": {
-        "min": 2,
-        "max": 7
-      }
-    },
-    "images": [
-      "https://media.s-bol.com/xkkw7zDzZQRB/1200x1112.jpg",
-      "https://media.s-bol.com/gJJq7mEqL7Y3/1200x800.jpg",
-      "https://media.s-bol.com/xkkw7zDzZQRB/1200x1112.jpg"
-    ]
-  }, {
-    "id": 2,
-    "brand": "Mattel Games",
-    "name": "Uno",
-    "price": {
-      "currency": "EUR",
-      "amount": 10.95
-    },
-    "description": {
-      "short": "Snel en compact kaartspel",
-      "extended": "Het doel van dit spel? Troef de eerder gespeelde kaart met een kaart van dezelfde kleur of hetzelfde symbool. Maar let goed op de actiekaarten en hou het bluffen van de tegenstander in de gaten!"
-    },
-    "type": "Game",
-    "audience": {
-      "age": {
-        "min": 7
+      "description": {
+        "short": "Snel en compact dobbelspel",
+        "extended": "Dit snelle compacte dobbelspelletje Regenwormen kun je op elk moment en overal spelen. Het duurt niet langer dan een half uurtje en het formaat zorgt ervoor dat je het thuis, in de trein of op de campingtafel kunt neerleggen. Iedereen die tot 36 kan tellen, kan meedoen! Als je aan de beurt bent, gooi je met 8 dobbelstenen. Je legt nu alle dobbelstenen met hetzelfde getal of met een worm opzij. Daarna gooi je met de resterende dobbelstenen en legt nu alle dobbelstenen met een ander getal opzij. Als je totaal hoger is dan 20 en je hebt ten minste één worm gegooid, mag je de steen met het betreffende getal van tafel of zelfs van een andere speler pakken! Maar neem je teveel risico en gooi je alleen maar getallen die je al eens hebt gepakt, dan ben je af en moet je juist een steen inleveren. Op elke steen staan een aantal regenwormen. Wie aan het einde van het spel de meeste regenwormen heeft, is de winnaar. Probeer Regenwormen nu zelf uit met onze online probeervariant."
       },
-      "numberOfPlayers": {
-        "min": 2,
-        "max": 10
-      }
+      "type": "Game",
+      "audience": {
+        "age": {
+          "min": 8
+        },
+        "numberOfPlayers": {
+          "min": 2,
+          "max": 7
+        }
+      },
+      "images": [
+        "https://media.s-bol.com/xkkw7zDzZQRB/1200x1112.jpg",
+        "https://media.s-bol.com/gJJq7mEqL7Y3/1200x800.jpg",
+        "https://media.s-bol.com/xkkw7zDzZQRB/1200x1112.jpg"
+      ],
+      "rating": 2
     },
-    "images": [
-      "https://media.s-bol.com/g1LlwKn1Gwl/730x1200.jpg",
-      "https://media.s-bol.com/g1J2DgGqBrY/1200x1013.jpg"
-    ]
-  }]
+    {
+      "id": 2,
+      "brand": "Mattel Games",
+      "name": "Uno",
+      "price": {
+        "currency": "EUR",
+        "amount": 10.95
+      },
+      "description": {
+        "short": "Snel en compact kaartspel",
+        "extended": "Het doel van dit spel? Troef de eerder gespeelde kaart met een kaart van dezelfde kleur of hetzelfde symbool. Maar let goed op de actiekaarten en hou het bluffen van de tegenstander in de gaten!"
+      },
+      "type": "Game",
+      "audience": {
+        "age": {
+          "min": 7
+        },
+        "numberOfPlayers": {
+          "min": 2,
+          "max": 10
+        }
+      },
+      "images": [
+        "https://media.s-bol.com/g1LlwKn1Gwl/730x1200.jpg",
+        "https://media.s-bol.com/g1J2DgGqBrY/1200x1013.jpg"
+      ],
+      "rating": 4
+    }
+  ]
 }

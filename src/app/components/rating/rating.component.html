@@ -1,0 +1,6 @@
+<span *ngFor="let starred of stars; let i = index">
+  <ng-container *ngIf="starred; else noStar"
+                class="star">&#9733;</ng-container>
+  <ng-template #noStar
+               class="star">&#9734;</ng-template>
+</span>
