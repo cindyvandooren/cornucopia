@@ -23,9 +23,9 @@
         }
       },
       "images": [
-        "https://media.s-bol.com/xkkw7zDzZQRB/1200x1112.jpg",
-        "https://media.s-bol.com/gJJq7mEqL7Y3/1200x800.jpg",
-        "https://media.s-bol.com/xkkw7zDzZQRB/1200x1112.jpg"
+        "https://media.s-bol.com/qwYK2DvY5Y0/550x580.jpg",
+        "https://media.s-bol.com/qwYK2DvY5Y0/550x580.jpg",
+        "https://media.s-bol.com/qwYK2DvY5Y0/550x580.jpg"
       ],
       "rating": 2
     },
@@ -52,10 +52,94 @@
         }
       },
       "images": [
-        "https://media.s-bol.com/g1LlwKn1Gwl/730x1200.jpg",
-        "https://media.s-bol.com/g1J2DgGqBrY/1200x1013.jpg"
+        "https://media.s-bol.com/qwYK2DvY5Y0/550x580.jpg",
+        "https://media.s-bol.com/qwYK2DvY5Y0/550x580.jpg"
       ],
       "rating": 4
+    },
+    {
+      "id": 3,
+      "brand": "Days of Wonder",
+      "name": "Ticket to Ride Europe - Bordspel",
+      "price": {
+        "currency": "EUR",
+        "amount": 39.95
+      },
+      "description": {
+        "short": "Ga op treinavontuur dwars door Europa!",
+        "extended": "Met het Ticket to Ride Europe bordspel reis je per trein over het hele continent. Waag je een reis door de donkere tunnels in Zwitserland of aan boord van een veerboot op de Zwarte Zee? Of bouw je schitterende treinstations in de grote hoofdsteden van oude wereldrijken? In Ticket to Ride Europe moeten de spelers de routes op hun bestemmingskaarten volbrengen. Dit doe je door verbindingen tussen steden te claimen, die je mag bouwen als je de juiste kaartencombinaties in handen hebt. Heb jij aan het eind van het spel de meeste punten verzameld met je treinnetwerk? Dan ben jij de winnaar. Dit populaire bordspel is een makkelijk aan te leren spel met diverse onvoorziene plotwendingen, zodat de uiteindelijke winnaar tot op het laatst onbekend blijft. Spanning en plezier voor het hele gezin."
+      },
+      "type": "Game",
+      "audience": {
+        "age": {
+          "min": 8
+        },
+        "numberOfPlayers": {
+          "min": 2,
+          "max": 5
+        }
+      },
+      "images": [
+        "https://media.s-bol.com/qwYK2DvY5Y0/550x580.jpg",
+        "https://media.s-bol.com/qwYK2DvY5Y0/550x580.jpg"
+      ],
+      "rating": 5
+    },
+    {
+      "id": 4,
+      "brand": "Goliath",
+      "name": "Rummikub",
+      "price": {
+        "currency": "EUR",
+        "amount": 29.99
+      },
+      "description": {
+        "short": "Het alombekende spel Rummikub!",
+        "extended": "Maak mooie cijferreeksen met de gekleurde cijfers op je plankje. Wie legt de slimste combinaties? Ben jij degene die het eerst alle cijfers op tafel heeft liggen? Een spel dat inzicht, durf en tactiek combineert."
+      },
+      "type": "Game",
+      "audience": {
+        "age": {
+          "min": 1
+        },
+        "numberOfPlayers": {
+          "min": 2,
+          "max": 4
+        }
+      },
+      "images": [
+        "https://media.s-bol.com/qwYK2DvY5Y0/550x580.jpg",
+        "https://media.s-bol.com/qwYK2DvY5Y0/550x580.jpg"
+      ],
+      "rating": 4
+    },
+    {
+      "id": 5,
+      "brand": "999 Games",
+      "name": "Catan Basisspel",
+      "price": {
+        "currency": "EUR",
+        "amount": 32.95
+      },
+      "description": {
+        "short": "Het Catan basisspel is de nieuwste editie van het bekende handelsspel.",
+        "extended": "Het spel bevat nu miniaturen en ook het artwork is volledig aangepast. Zo kun je je nog meer inleven in de wereld van Catan!"
+      },
+      "type": "Game",
+      "audience": {
+        "age": {
+          "min": 10
+        },
+        "numberOfPlayers": {
+          "min": 3,
+          "max": 4
+        }
+      },
+      "images": [
+        "https://media.s-bol.com/qwYK2DvY5Y0/550x580.jpg",
+        "https://media.s-bol.com/qwYK2DvY5Y0/550x580.jpg"
+      ],
+      "rating": 5
     }
   ]
 }
