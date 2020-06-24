@@ -1,9 +1,12 @@
 <article>
   <h2>{{ product.name }}</h2>
-  <img [src]="product.images[0]"
-       alt="Picture showing {{ product.name }}"
-       width="100px" />
+  <div class="photo-wrapper">
+    <img [src]="product.images[0]"
+         alt="Picture showing {{ product.name }}"
+         width="100px" />
+  </div>
   <p>{{ product.description.short }}</p>
-  <ca-rating [rating]="
-       product.rating"></ca-rating>
+  <div class="rating-wrapper">
+    <ca-rating [rating]="product.rating"></ca-rating>
+  </div>
 </article>

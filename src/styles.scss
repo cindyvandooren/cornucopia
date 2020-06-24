@@ -1,53 +1,61 @@
 @import '~normalize.css';
 
+$default-browser-font-size: 16px;
+
 // Media queries
 // 320px
 @mixin mediaXXS {
-  @media (min-width: 20em) {
+  @media only screen and (min-width: 20em) {
     @content;
   }
 };
 
 // 480px
 @mixin mediaXS {
-  @media (min-width: 30em) {
+  @media only screen and (min-width: 30em) {
     @content;
   }
 };
 
 // 600px
 @mixin mediaS {
-  @media (min-width: 37.5em) {
+  @media only screen and (min-width: 37.5em) {
     @content;
   }
 };
 
 // 768px
 @mixin mediaM {
-  @media (min-width: 48em) {
+  @media only screen and (min-width: 48em) {
     @content;
   }
 }
 
 // 900px
 @mixin mediaL {
-  @media (min-width: 56.25em) {
+  @media only screen and (min-width: 56.25em) {
     @content;
   }
 }
 
 // 1100px
 @mixin mediaXL {
-  @media (min-width: 68.75em) {
+  @media only screen and (min-width: 68.75em) {
     @content;
   }
 }
 
 // 1300px
 @mixin mediaXXL {
-  @media (min-width: 81.25) {
+  @media only screen and (min-width: 81.25) {
     @content;
   }
+}
+
+// Calculating rems
+@function pxToRem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
 }
 
 // Target Firefox

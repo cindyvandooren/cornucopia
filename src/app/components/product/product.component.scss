@@ -1,4 +1,89 @@
+@import '../../../styles';
+
+@mixin horizontal-card {
+  article {
+    grid-template-columns: 150px 1fr;
+    grid-template-areas:
+      "photo title"
+      "rating description";
+  }
+
+  .photo-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .rating-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@mixin vertical-card {
+  article {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "photo"
+      "rating"
+      "description";
+  }
+
+  .photo-wrapper,
+  .rating-wrapper {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
+
 article {
-  display: flex;
-  flex-direction: column;
+  padding: 1rem;
+  display: grid;
+}
+
+@include vertical-card;
+
+h2 {
+  grid-area: title;
+  font-size: pxToRem(24px);
+  max-height: pxToRem(54px);
+  min-height: pxToRem(54px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.photo-wrapper {
+  grid-area: photo;
+}
+
+p {
+  grid-area: description;
+}
+
+.rating-wrapper {
+  grid-area: rating;
+}
+
+@include mediaXS {
+  @include horizontal-card;
+}
+
+@include mediaS {
+  @include vertical-card;
+}
+
+@include mediaM {
+  @include horizontal-card;
+}
+
+@include mediaL {
+  @include vertical-card;
+}
+
+@include mediaXXL {
+  @include horizontal-card;
 }
