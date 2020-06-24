@@ -1,2 +1,9 @@
-<h2>{{ product.name }} ({{ product.id }})</h2>
-<ca-rating [rating]="product.rating"></ca-rating>
+<article>
+  <h2>{{ product.name }}</h2>
+  <img [src]="product.images[0]"
+       alt="Picture showing {{ product.name }}"
+       width="100px" />
+  <p>{{ product.description.short }}</p>
+  <ca-rating [rating]="
+       product.rating"></ca-rating>
+</article>
